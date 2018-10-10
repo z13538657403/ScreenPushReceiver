@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/rtp_log_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/start_receive"
+        android:layout_below="@+id/rtp_log_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Reveive"/>
+
+</RelativeLayout>
